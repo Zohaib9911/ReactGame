@@ -66,6 +66,7 @@ function App() {
       <main>
         {tenzies && <Confetti />}
         <h1 className="title">Tenzies</h1>
+        <img src="https://images.pexels.com/photos/14746177/pexels-photo-14746177.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Tenzie" style={{ width: "100px", height: "100px" }} />
         <p className="instructions">Roll until all dice are the same. Click each die to freeze it at its current value between rolls.</p>
         <div className="dice-container">
           {diesElements}
